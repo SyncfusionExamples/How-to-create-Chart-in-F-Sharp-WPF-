@@ -60,6 +60,7 @@ type ExpenseItHomeViewModel(expenseReportRepository : ExpenseReportRepository) =
         new ObservableCollection<ExpenseReport>(
             expenseReportRepository.GetAll())
 ```
+
 Step 4: Create and add a SfChart to UserControl. Set the Binding to ItemSource, XBindingPath and YBindingPath properties of series, respectively.
 
 **XAML**
@@ -96,6 +97,7 @@ Step 4: Create and add a SfChart to UserControl. Set the Binding to ItemSource, 
     </Grid>
 </UserControl>
 ```
+
 Step 5: Add UserControl with SfChart in the MainWindow.xaml using the Frame.
 
 **XAML**
