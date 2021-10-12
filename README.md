@@ -110,4 +110,5 @@ Step 5: Add UserControl with SfChart in the MainWindow.xaml using the Frame.
 </Window>
 ```
 
+KB article - [How-to-create-Chart-in-F-Sharp-WPF](https://www.syncfusion.com/kb/11663/how-to-create-chart-in-f-wpf)
 
